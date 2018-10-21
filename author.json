@@ -1,4 +1,4 @@
-author = [{
+{
 	"video": [{
 		"id": 12312412312,
 		"name": "Ecuaciones Diferenciales",
@@ -11,17 +11,4 @@ author = [{
 			}]
 		}
 	}]
-}];
-    (function() {
-    var myv = JSON.parse(data);
-    console.log(mydata[0].name);
-    console.log(mydata[0].model);
-    console.log(mydata[0].manufacturer);
-})();
-
-
-
-
-
- 
-   
+}
