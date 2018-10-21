@@ -3,19 +3,42 @@ JavaScript MA03
 Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
+In every language there are multiple dialects, and the same is with coding languages aswell.
+Javascript has many code styles, and there are especially two bulks of coders: tabs vs spaces and semicolons vs. no semicolons.
+Code style is how the code, declaration, braces etc look when you are coding. This is how you space between code, split code lines and start variables. There are certain unwritten rules on how professional coders want to work and when some one comes along and f... up the flow of code it can reap havoc. 
+
 
 2. What is a Regular Expression?
+This a method used in programming for pattern matching. Regex are used for data validation and in search engines, to determine matches to questions users are asking. This method could be used to search through large volumes of information and do changes to that information, for example, tiger to lion.
 
 3. What does the .random() method do?
+.random() is a math method. This method generates a random number between 0 and 1.
 
 4. What does the .sort() method do?
+.sort() method sorts  alphabetically ascending. The order the .sort() method sorts can be changed by passing a function in to the .sort(). 
 
 5. What does the .reverse() method do?
+.reverse() method  restackes the array. Takes the first element and makes it the last and last one becomes the first element.
 
 6. List two examples of bad JavaScript code.
+var Color = 'red';
+var SomeNumber = 234;
+var AnArray = [1,2,3];
+var Foo = { bar: 123 };
+//should not start with a capitol letter
+
+var y = 3;
+if (y = 7)
+// The if clause is evaluated as true because of the assignment operator was used instead of the 
+comparison operator.
 
 7. What data types can a JSON object contain?
+A string, a number, an object(JSON object), an array, a boolean and null.
 
 8. What is minifying JavaScript Code?
+This is the process of minimizing code and markup in web pages and script files. It is one of the main methods used to reduce load time.
+By doing this the bandwidth usage is reduced and increases the site speed and accessibility.
 
 9. What is a global variable?
+A global variable is a variable that is declared outside a function scope. Therefor a variable is in a global context.
+By assigning a value to an undeclared vaiable makes it a global variable by default.
